@@ -1,0 +1,66 @@
+.form{
+    position: absolute;
+    left: 25%;
+    width: 400px;
+    height: 420px;
+    margin-top: 10px;
+}
+
+h4{
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    position: relative;
+    margin-top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Form{
+    padding: 0;
+    display: grid;
+    gap:0;
+    width: 400px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+Form.input[type ="text"]{
+    width: 20%;
+    border-radius: 20px;
+    color: white;
+}
+
+input{
+    padding: 10px;
+    border-radius: 8px;
+    background-color:transparent;
+    color: white;
+}
+
+::placeholder{
+    color:whitesmoke;
+}
+
+label{
+    margin-left: 20px;
+    color: aliceblue;
+    font-family:sans-serif;
+}
+
+.button{
+    width: 400px;
+    position: absolute;
+    left: 40%;
+}
+
+button{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+    color: orangered;
+    background-color: transparent;
+    border-radius: 8px;
+}
